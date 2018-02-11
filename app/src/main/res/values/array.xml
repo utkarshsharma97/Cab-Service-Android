@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action">
+        <item>Book a ride</item>
+        <item>Cancel a ride</item>
+        <item>Track my taxi</item>
+        <item>Terms and Conditions</item>
+    </string-array>
+    <string-array name="Description">
+        <item>You can book a ride in the most convenient way and in most affordable prices</item>
+        <item>If you plan to cancel a booking, it can be done easily</item>
+        <item> You can track your taxi and get the exact live running location of your vehicle at any time.</item>
+        <item>App shall not be responsible or liable for any loss or damage, howsoever caused or suffered by the Customer arising out of the use of taxi service offered by app or due to the failure of app to provide services to the Customer for any reason whatsoever.\n\nApp shall not be liable for any direct or indirect loss or damage which may be suffered by the Customer as a result of any failure by app to provide a taxi to the Customer within any stipulated time.\n\nCustomer shall indemnify app from and against and in respect of any or all liabilities, losses, charges and expenses (including legal fees and costs on a full indemnify basis) claims, demands, actions and proceedings which app may incur or sustain directly or indirectly from or by any reason of or in relation to the use or purposed use of the Services by the Customer and shall pay such sums on demand.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">calc</string>
+    <string name="name1">Enter your name</string>
+    <string name="fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="name">Click to know your name</string>
+    <string name="tv">Your name here</string>
+    <string name="email">E-mail Id</string>
+    <string name="password">Password</string>
+    <string name="phno">Phone number</string>
+    <string name="sign_up">New user? SIGN UP</string>
+    <string name="log_in">Already a member? LOGIN</string>
+    <string name="about_us">ABOUT US</string>
+    <string name="title">ONLINE CAB BOOKING</string>
+    <string name="heading">Hello! Enter your name</string>
+    <string name="activity2">Go to activity 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
