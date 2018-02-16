@@ -8,12 +8,13 @@
     <string name="email">E-mail Id</string>
     <string name="password">Password</string>
     <string name="phno">Phone number</string>
+    <string name="signup">SIGN UP</string>
     <string name="sign_up">New user? SIGN UP</string>
     <string name="log_in">Already a member? LOGIN</string>
     <string name="about_us">ABOUT US</string>
     <string name="title">ONLINE CAB BOOKING</string>
-    <string name="heading">Hello! Enter your name</string>
-    <string name="activity2">Go to activity 2</string>
+    <string name="heading">Hello! Enter your nick name</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
