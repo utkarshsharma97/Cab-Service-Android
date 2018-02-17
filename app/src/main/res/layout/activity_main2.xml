@@ -20,6 +20,11 @@
         tools:layout_editor_absoluteY="0dp" />
 
 
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_hint_fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/FloatingHintStyle">
 
 
         <EditText
@@ -34,7 +39,13 @@
             android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
+    </android.support.design.widget.TextInputLayout>
 
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_hint_lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/FloatingHintStyle">
 
 
 
@@ -50,7 +61,13 @@
             android:inputType="textPersonName"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
+    </android.support.design.widget.TextInputLayout>
 
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_hint_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/FloatingHintStyle">
 
 
 
@@ -66,8 +83,14 @@
             android:inputType="textEmailAddress"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
+    </android.support.design.widget.TextInputLayout>
 
 
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/floating_hint_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:hintTextAppearance="@style/FloatingHintStyle">
 
 
         <EditText
@@ -81,6 +104,7 @@
             android:inputType="textPassword"
             android:textColor="#FFFFFF"
             android:textColorHint="#FFFFFF" />
+    </android.support.design.widget.TextInputLayout>
 
 
 

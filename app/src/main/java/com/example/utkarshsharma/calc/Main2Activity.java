@@ -42,15 +42,15 @@ public class Main2Activity extends AppCompatActivity {
                     String mail=email.getText().toString().trim();
                     String pass=password.getText().toString().trim();
                     mAuth.createUserWithEmailAndPassword(mail, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                            //addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
                                 @Override
                                 public void onComplete(@NonNull Task<AuthResult> task) {
-                                    if (!task.isSuccessful()) {
-                                        Toast.makeText(Main2Activity.this, "unregistered",
+                                    if (task.isSuccessful()) {
+                                        Toast.makeText(Main2Activity.this, "You have been registered successfully",
                                                 Toast.LENGTH_SHORT).show();
+                                        startActivity(new Intent(Main2Activity.this,com.example.utkarshsharma.calc.Main4Activity.class));
                                     }
                                     else{
-                                    Toast.makeText(Main2Activity.this, "registered",
+                                    Toast.makeText(Main2Activity.this, "Registration unsuccessful!",
                                             Toast.LENGTH_SHORT).show();
                                 }}
                             });
