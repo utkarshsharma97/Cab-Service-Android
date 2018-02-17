@@ -41,7 +41,8 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Intent intent=new Intent(MainActivity.this,com.example.utkarshsharma.calc.Main4Activity.class);
+                startActivity(intent);
             }
         });
     }

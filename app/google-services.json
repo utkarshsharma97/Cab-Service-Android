@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "589952185137",
+    "firebase_url": "https://calc-d1d96.firebaseio.com",
+    "project_id": "calc-d1d96",
+    "storage_bucket": "calc-d1d96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589952185137:android:35e9c9b35c0f2a46",
+        "android_client_info": {
+          "package_name": "com.example.utkarshsharma.calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589952185137-fk4e5t6at534oqjdehvkdnkfohejqj3a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.utkarshsharma.calc",
+            "certificate_hash": "94366ea8b211512e3250aae8928eaf86c0295b70"
+          }
+        },
+        {
+          "client_id": "589952185137-j3eqtgu1feo0ish83p521j55ratar33a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYAA6AxIYZM-XcIa-PpM-i2kMnTPQ88I0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589952185137-j3eqtgu1feo0ish83p521j55ratar33a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
